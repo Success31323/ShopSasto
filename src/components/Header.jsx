@@ -15,7 +15,19 @@ const Header = () => {
             </div>
 
             <Search/>
+
+
+
+
+            <div className='flex items-center gap-5'>
+                <div className='flex items-center gap-3'>
+                    <Link href={"/login"}>Login</Link>
+                    <span className='test-gray-300'></span>
+                    <Link href={"/register"}>Register</Link>
+            </div>
+        
         </div>
+        </div>    
     </header>
   )
 }
