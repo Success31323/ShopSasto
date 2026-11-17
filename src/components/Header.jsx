@@ -6,7 +6,7 @@ import Search from './Search';
 
 const Header = () => {
   return (
-    <header>
+    <header className='py-3'>
         <div className='container flex items-center justify-between'>
             <div className='logo'>
                 <Link href={"/"}>
