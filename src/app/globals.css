@@ -12,3 +12,27 @@
 }
 
 .container{width: 90%; margin: auto;}
+
+.swiper-button-next, .swiper-button-prev{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px !important;
+  height: 50px !important;
+  background: white;
+  border-radius: 100%;
+}
+
+.swiper-button-next svg, .swiper-button-prev svg{
+  color: #000 !important;
+  width: 15px !important;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover{
+  @apply bg-primary !important;
+
+}
+
+.swiper-button-next:hover svg, .swiper-button-prev:hover svg{
+  color: #ffff !important;
+}
