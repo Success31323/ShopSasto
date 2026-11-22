@@ -7,12 +7,16 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import Image from 'next/image';
-import { Navigation } from 'swiper/modules';
+import { Navigation, Autoplay } from 'swiper/modules';
 const HomeSlider = () => {
   return (
     <div className='homeSlider overflow-hidden py-3'>
         <div className='container'>
-            <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+            <Swiper navigation={true} modules={[Navigation, Autoplay]}
+             autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+             }}className="mySwiper">
                 <SwiperSlide>
                     <div className='item'>
                     <Image src="/slide1.png" alt='side1' width={1334} height={514} className="w-full h-auto" priority/>
