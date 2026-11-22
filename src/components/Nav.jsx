@@ -42,7 +42,6 @@ const Nav = () => {
 
 
             <div className='dropdown-menu hidden group-hover:flex flex-col absolute top-[100%] right-0 bg-white shadow-md rounded-md overflow-hidden'>
-                <Link href="/" className='text-[18px] text-gray-800 font-[600] hover:text-primary py-2 px-3'>Meow</Link>
                 <Link href="/" className='text-[18px] text-gray-800 font-[600] hover:text-primary py-2 px-3'>Drinks</Link>
                 <Link href="/" className='text-[18px] text-gray-800 font-[600] hover:text-primary py-2 px-3'>Appliances</Link>
                 <Link href="/" className='text-[18px] text-gray-800 font-[600] hover:text-primary py-2 px-3'>Cables</Link>

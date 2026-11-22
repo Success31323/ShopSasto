@@ -10,11 +10,14 @@ const CatSlider = () => {
         <div className='container'>
             <Swiper
                 slidesPerView={10}
-                spaceBetween={30}
+                spaceBetween={20}
                 modules={[Navigation]}
                 className="mySwiper"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
+        <SwiperSlide>
+            <div className='bg-white p-3 w-full rounded-md shadow-md'>
+                
+            </div>Slide 1</SwiperSlide>
 
       </Swiper>
         </div>
