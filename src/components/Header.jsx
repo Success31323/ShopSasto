@@ -8,7 +8,7 @@ import { CiHeart } from "react-icons/ci";
 import { IoCartOutline } from "react-icons/io5";
 
 
-
+/* Used React icons and buttons from Matrials UI along with react swiper */
 const Header = () => {
   return (
     <>
