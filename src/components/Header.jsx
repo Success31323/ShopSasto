@@ -31,13 +31,13 @@ const Header = () => {
                         <div className='flex items-center gap-3'>
                             <Link href={"/wishlist"} className='relative'>
                             <span className='bg-red-500 w-5 h-5 text-white  rounded-full flex items-center justify-center absolute -top-[10px] -right-[8px] z-50'>3</span>
-                            <CiHeart size= {30} className='text-black-800'/>
+                            <CiHeart size= {30} className='text-black-800 hover:text-primary'/>
                             </Link>
 
 
                             <Link href={"/cart"} className='relative'>
                             <span className='bg-red-500 w-5 h-5 text-white  rounded-full flex items-center justify-center absolute -top-[10px] -right-[8px] z-50'>3</span>
-                            <IoCartOutline size= {30} className='text-black-800'/>
+                            <IoCartOutline size= {30} className='text-black-800 hover:text-primary'/>
                             </Link>
                         </div>    
 
