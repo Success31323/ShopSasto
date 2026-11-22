@@ -7,8 +7,8 @@
 }
 
 @theme{
-  --color-primary: #028340
-  --color-secondary: #328263
+  --color-primary: #02b290;
+  --color-secondary: #353535;
 }
 
 .container{width: 90%; margin: auto;}

@@ -4,7 +4,7 @@ import { IoSearchOutline, IoSearchSharp } from "react-icons/io5";
 
 const Search = () => {
   return (
-    <div className='search bg-[#f3f1f1] w-[600px] h-[60px] flex items-center px-4 rounded-lg'>
+    <div className='search bg-[#f3f1f1] w-[800px] h-[60px] flex items-center px-4 rounded-lg'>
       <input 
         type="text" 
         placeholder="Search prodcuts" 
