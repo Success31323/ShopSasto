@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
-import ProductSlider from "./ProductSlider";
+// import ProductSlider from "./ProductSlider";
 
 const tabCategories = [
   "Fruits & Vegetables",
@@ -52,7 +52,7 @@ const PopularProducts = () => {
           </div>
         </div>
 
-        <ProductSlider />
+        {/* <ProductSlider /> */}
 
 
           </div>
