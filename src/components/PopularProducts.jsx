@@ -32,7 +32,7 @@ const PopularProducts = () => {
               Popular Products
             </h2>
             <p className="text-[16px] text-gray-600">
-              Do not miss the current offers until the end of March.
+              Do not miss the current offers until the end of November.
             </p>
           </div>
 
@@ -52,7 +52,7 @@ const PopularProducts = () => {
           </div>
         </div>
 
-        {/* <ProductSlider /> */}
+        <ProductSlider />
 
 
           </div>
