@@ -37,6 +37,24 @@ const PopularProducts = () => {
           </div>
 
 
+          <div className="w-[70%] flex items-center justify-end">
+            <Tabs
+              value={value}
+              onChange={handleChange}
+              variant="scrollable"
+              scrollButtons="auto"
+              aria-label="popular product categories"
+            >
+              {tabCategories.map((label, idx) => (
+                <Tab key={idx} label={label} />
+              ))}
+            </Tabs>
+          </div>
+        </div>
+
+        <ProductSlider />
+
+
           </div>
     </section>
 
