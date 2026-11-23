@@ -1,11 +1,11 @@
-import HomeSlider from "@/components/HomeSlider"
+import HomeSlider from "@/components/HomeSlider";
+import CatSlider from "@/components/CatSlider";
 
 export default function Home() {
   return (
     <>
-        <div className='sliderWrapper bg-white py-4'>
-          <HomeSlider/>
-        </div>
+      <HomeSlider />
+      <CatSlider />
     </>
-    );
+  );
 }

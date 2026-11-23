@@ -29,10 +29,10 @@
 }
 
 .swiper-button-next:hover, .swiper-button-prev:hover{
-  @apply bg-primary !important;
+  @apply bg-primary;
 
 }
 
-.swiper-button-next:hover svg, .swiper-button-prev:hover svg{
-  color: #ffff !important;
+.swiper-button-next:hover, .swiper-button-prev:hover {
+  background-color: var(--color-primary) !important;
 }
