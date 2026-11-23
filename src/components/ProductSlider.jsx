@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-// import ProductItem from "./ProductItem";
+import ProductItem from "./ProductItem";
 
 const ProductSlider = () => {
   const items = Array.from({ length: 8 });
